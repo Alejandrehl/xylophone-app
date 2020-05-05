@@ -12,47 +12,54 @@ class XylophoneApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note1.wav");
-                  },
-                  child: Text("Click Me 1!")),
+                color: Colors.red,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note1.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note2.wav");
-                  },
-                  child: Text("Click Me 2!")),
+                color: Colors.orange,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note2.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note3.wav");
-                  },
-                  child: Text("Click Me 3!")),
+                color: Colors.yellow,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note3.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note4.wav");
-                  },
-                  child: Text("Click Me 4!")),
+                color: Colors.green,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note4.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note5.wav");
-                  },
-                  child: Text("Click Me 5!")),
+                color: Colors.teal,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note5.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note6.wav");
-                  },
-                  child: Text("Click Me 6!")),
+                color: Colors.blue,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note6.wav");
+                },
+              ),
               FlatButton(
-                  onPressed: () {
-                    final player = AudioCache();
-                    player.play("note7.wav");
-                  },
-                  child: Text("Click Me 7!")),
+                color: Colors.purple,
+                onPressed: () {
+                  final player = AudioCache();
+                  player.play("note7.wav");
+                },
+              ),
             ],
           ),
         ),
